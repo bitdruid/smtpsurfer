@@ -1,0 +1,3 @@
+title: "postfix-log";; command: /usr/bin/watch -n 1 tail -n 30 /var/log/postfix.log;; position: "bottom";; width: 50%;; height: 50%;;
+title: "smtpsurfer-log";; command: /usr/bin/watch -n 1 tail -n 30 /smtpsurfer/log.sh;; position: "bottom";; width: 50%;; height: 50%;;
+title: "smtpsurfer-logpy;; command: /usr/bin/watch -n 1 tail -n 30 /smtpsurfer/logpy.sh;; position: "bottom";; width: 50%;; height: 50%;;
